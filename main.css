@@ -179,6 +179,10 @@ img,
 	padding: 2.0rem 0;
 }
 
+.contact {
+	padding-bottom: 5rem;
+}
+
 .locations,.program,.questions_answers,.contact,.gifts {
 	font-family: 'Great Vibes', cursive;
 	font-size: 3rem;
