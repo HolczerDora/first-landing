@@ -1,0 +1,346 @@
+/*--Google Fontok font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Muli', sans-serif;--*/
+/* CSS reset */
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+
+* {
+	box-sizing: border-box;
+}
+
+/*==== Vertical Rytm ====*/
+h1,h2,h3,
+ul,ol,
+p,
+img,
+.h1 {
+    margin: 1.5rem;
+}
+
+.body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+	background: url(assets/wedding-landing-background.png);
+	
+}
+
+.cover {
+	background: url(assets/wedding-landing-cover.jpg)70% center fixed no-repeat;
+  display: table;
+  background-size: cover;
+	background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.text-wrapper {
+  display: table-cell;
+	vertical-align: middle;
+	letter-spacing: .1rem;
+}
+
+.rectangle-dark {
+	margin: 0 auto;
+  padding: 1.625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.rectangle {
+	margin: 0 auto;
+  padding: 1.625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+	display: table-cell;
+	vertical-align: middle;
+	}
+
+.tagline {
+  font-family: 'Libre Baskerville', serif; 
+	font-size: 1.3rem;
+	color: white;
+}
+  
+  .tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	color: #d2ba87;
+  margin-bottom: 0;
+	padding-bottom: 1.5rem;
+	font-weight: 500;
+	}
+  
+.date {
+  font-family: 'Libre Baskerville', serif;
+	font-size: 1.3rem;
+	color: white;
+}
+  
+  .date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+
+/*--Media Desktop--*/
+
+@media (min-width: 768px) {
+
+	.rectangle-dark {
+		width: 50%;
+		padding: 1.25rem;
+    border-radius: 4px;
+	}
+	
+	.tagline {
+		text-transform: uppercase;
+	}
+
+	.h1 {
+		font-size: 5rem;		
+	}
+	
+	.content {
+		display: inline-block;
+		text-align: center;
+		padding: 1.8rem;
+		
+	}
+	
+	.content::after {
+		display: none;
+		
+	}
+	
+}
+
+@media (min-width: 768px) {
+	
+	.span {
+	width: 30%;
+	vertical-align: top;	
+	display:inline-block;
+	padding: 1.5rem;
+	}
+	
+  .locations,.program,.gifts,.questions_answers,.footer,.contact {
+	background: url(assets/wedding-landing-background.png);
+	width: 100%;
+  height: 30vh;
+	display: table;
+  text-align: center;
+	padding: 2.0rem 0;
+}
+	
+	}
+	
+	.rectangle{
+	margin: 0 auto;
+  padding: 1.625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+	}
+	
+	.citation {
+		padding: 1.625rem 0;
+	font-weight: 500;
+	line-height: 1.5rem;
+	display: block;
+	text-align: center;
+	}
+	
+	
+
+.locations,.program,.gifts,.questions_answers,.footer,.contact {
+	background: url(assets/wedding-landing-background.png);
+	width: 100%;
+  height: 55vh;
+	display: table;
+  text-align: center;
+	padding: 2.0rem 0;
+}
+
+.locations,.program,.questions_answers,.contact,.gifts {
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	color: #444349;
+  margin-bottom: 0;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+
+.program h2,.questions_answers h2{
+	color: #d2ba87;
+	font-weight: 500;
+	letter-spacing: .15rem;
+}
+
+ .content h3 {
+	font-family:'Libre Baskerville', serif;
+	font-size: 1.5rem;
+	color: #444349;
+	padding: 2.5rem; 
+}
+
+ .content img,.boxes img {
+	width: 120px;
+	height: 120px;
+}
+
+.content div {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.content::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 6.5rem;
+  margin: .8rem auto;
+}
+
+.citation {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.1rem;
+  color: #d2ba87;
+	padding: 1.625rem 0;
+	font-weight: 500;
+	line-height: 1.5rem;
+	display: block;
+	text-align: left;
+}
+
+.citation h3{
+	font-style: italic;
+	padding: 1.625rem 0;
+	
+}
+
+.boxes p {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.1rem;
+	color: #444349;
+	padding: 1.3rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+
+.span p {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.1rem;
+	color: #d2ba87;
+	font-weight: 500;
+	line-height: 1.5rem;
+	display: block;
+	text-align: left;
+}
+
+.span h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.3rem;
+	color: #d2ba87;
+	padding:1.5rem;
+	font-weight: 600;
+	line-height: 1.5rem;
+}
+
+.span question {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.1rem;
+	color: #d2ba87;
+	font-weight: 800;
+	line-height: 1.5rem;
+	display: block;
+	text-align: left;
+	padding: 1.3rem 0;
+}
+
+.span::after  {
+	display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: 3px;
+  width: 12.515625rem;
+  margin: 1rem auto;
+}
+
+a {
+	color: #bd806e;
+	text-decoration: none;
+}
+
+a:hover {
+	#eda087;
+}
+
+.wrapper {
+	display: table-cell;
+	min-height: 100vh;
+  position: relative;
+}
+
+.footer {
+	position: absolute;
+	display:table;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+	padding: 0px;
+}
+
+@media (min-width: 768px) {
+	.citation {
+	text-align: center;
+ }
+	
+	.span::after {
+		display: none;
+	}
+	
+	@media (min-width: 768px) {
+.date::before,
+.date::after {
+	display: none;
+}
+		
+		.content::after {
+			display: none;
+		}
+}
+
+
+
+
+
+
+
+
+
+
